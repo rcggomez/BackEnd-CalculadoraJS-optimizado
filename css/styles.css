@@ -1,0 +1,59 @@
+#appCalculadora {
+    height: 505px;
+    width: 310px;
+    border: 1px solid black;
+    border-radius: 100%;
+}
+
+#appCalculadora form {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+
+#appCalculadora input[type=textfield] {
+    height: 15%;
+    width: 90%;
+    cursor: default;
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
+    color: white;
+    padding: 15px;
+    text-align: right;
+    font-size: 50px;
+    border: 0;
+    outline: none;
+}
+
+#appCalculadora input[type=reset]{
+/*display: inline-block;*/
+  padding: 15px 112px;
+  font-size: 24px;
+  cursor: pointer;
+  border: 0;
+  border-radius: 15px;
+        
+}
+
+#appCalculadora input[type=button], input[type=reset]{
+    width: 22%;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 26px;
+    color: black;
+    padding: 18px;
+    margin: 3px;
+    border: 0;
+    border-radius: 100%;
+}
+
+#appCalculadora .orange {
+    background-color: orange !important;
+    color: whitesmoke !important;
+}
+
+#appCalculadora .gray{
+    background-color: grey !important;
+    color: whitesmoke !important;
+}
